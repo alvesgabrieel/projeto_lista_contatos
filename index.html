@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefônica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="container-header">
+                <h1>Contatos</h1>
+                <img src="./img/logo.png" alt="logo lista telefonica">
+            </div>
+        </header>
+        <section>
+            <h3>adicionar contato:</h3>
+            <form id="forms">
+                <input id="nome" type="text" required placeholder="Nome e sobrenome">
+                <input id="numero" type="number" required placeholder="Numero (com DDD)">
+                <button id="botao" type="submit">Salvar</button>
+            </form>
+        </section>
+        <section>
+            <table id="table">
+                <thead id="table-head">
+                    <tr>
+                        <th>
+                            Nome
+                        </th>
+                        <th>
+                            Número de telefone
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="table-body">
+                    <tr>
+                        <td>
+                            ---
+                        </td>
+                        <td>
+                            ---
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
