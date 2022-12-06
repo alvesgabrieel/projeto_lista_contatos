@@ -40,11 +40,12 @@ function adicionarContatos () {
                 linha += `</tr>`;
                 linhas += linha;
         
-                alert(`contato ${valorNome} adicionado na agenda`);
+                alert(`contato ${valorNome} adicionado na agenda`);   
             }
         } 
     }
- 
+            nome.value = '';
+            numero.value = '';
 }
 
 function atualizaContatos(){
